@@ -1,0 +1,169 @@
+main {
+    display: grid;
+    grid-gap: 5px;
+    background-color: white;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: whitesmoke;
+    text-align: initial;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.Facebook {
+    grid-column: 5 / 6;
+    grid-row: 1 /  2;
+}
+
+.Twitter {
+    grid-column: 5 / 6;
+    grid-row: 2 / 3 ;
+}
+
+.father {
+    grid-column: 1 / 3;
+    grid-row: 3 / 6;
+}
+
+.Joker {
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+}
+
+.Oldlady {
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+}
+
+.pinkhair {
+    grid-column: 5 / 6;
+    grid-row: 3 / 5;
+}
+
+.play {
+    grid-column: 1 / 2;
+    grid-row: 5 / 7;
+}
+
+
+.SuperSale {
+    grid-column: 2 / 4;
+    grid-row: 5 / 6;
+}
+
+.Candysells {
+    grid-column: 4 / 5;
+    grid-row: 5 / 6;
+}
+
+.pirate {
+    grid-column: 5 / 6;
+    grid-row: 5 / 6;
+}
+
+.props {
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+}
+
+.Santa {
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+}
+
+.classy {
+    grid-column: 3 / 5;
+    grid-row: 6 / 7;
+}
+
+.Freeship {
+    grid-column: 5 / 6;
+    grid-row: 6 / 7;
+}
+
+.kids1 {
+    grid-column: 6 / 6;
+    grid-row: 7 / 8;
+}
+
+.kids2 {
+    grid-column: 6 / 6;
+    grid-row: 7 / 8 ;
+}
+
+.OhMy {
+    grid-column: 5 /  6;
+    grid-row: 7 / 8;
+}
+
+.BlackMask {
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+}
+
+.Colorful {
+    grid-column: 2 / 4;
+    grid-row: 7 / 8;
+}
+
+.expresions {
+    grid-column: 1 / 5;
+    grid-row: 1 / 3;
+}
+
+.Anonymus {
+    grid-column: 5 / 6;
+    grid-row: 3 / 4;
+}
+
+.bottomtext{
+    grid-column: 5 / 6;
+    grid-row: 8 / 9;
+}
+
+    .item{
+        height: auto;
+        width: 100%;
+        justify-items: end;
+    }
+
+    footer{
+        display: none;
+}
+
+    li {
+        display: inline-block;
+    }
+
+    a {
+        margin-left: 30px;
+        text-decoration: none;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+
+
+
+    main{
+        display: grid;
+        grid-template-columns: repeat(5 , 20%);
+        gap: 5px;
+        justify-items: stretch;
+        width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
